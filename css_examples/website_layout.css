@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+}
+header{
+    background-color: hsl(0, 0%, 84%);
+    text-align: center;
+    padding: 25px;
+}
+.navbar{
+    background-color: rgb(41, 41, 41);
+    height: 50px;
+}
+aside{
+    width: 20%;
+    float:left;
+    padding: 10px;
+}
+section{
+    width: 40%;
+    float:left;
+    padding: 10px;
+}
+article{
+    width: 40%;
+    float:left;
+    padding: 10px;
+}
+footer{
+    display: block;
+    clear: both;
+    background-color: hsl(0, 0%, 84%);
+    text-align: center;
+    padding: 25px;
+}
+@media  screen and (max-width: 600px){
+    aside, section, article{
+        width: 100%;
+    }
+}
+
+/*
+<body>
+    <header>
+        <h2>Header</h2>
+    </header>
+
+    <nav class="navbar">
+    </nav>
+    
+    <main>
+        <aside>
+            <h2>This is aside</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque quidem unde ipsa aut deleniti veniam iure numquam reiciendis tempore voluptas, laboriosam quas eligendi molestias sequi, quaerat eum cum quo eveniet.</p>
+        </aside>
+
+        <section>
+            <h2>This is section</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque quidem unde ipsa aut deleniti veniam iure numquam reiciendis tempore voluptas, laboriosam quas eligendi molestias sequi, quaerat eum cum quo eveniet.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque quidem unde ipsa aut deleniti veniam iure numquam reiciendis tempore voluptas, laboriosam quas eligendi molestias sequi, quaerat eum cum quo eveniet.</p>
+        </section>
+
+        <article>
+            <h2>This is article</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque quidem unde ipsa aut deleniti veniam iure numquam reiciendis tempore voluptas, laboriosam quas eligendi molestias sequi, quaerat eum cum quo eveniet.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque quidem unde ipsa aut deleniti veniam iure numquam reiciendis tempore voluptas, laboriosam quas eligendi molestias sequi, quaerat eum cum quo eveniet.</p>
+        </article>
+    </main>
+
+    <footer>
+        <h2>Footer</h2>
+    </footer>
+</body>
+*/

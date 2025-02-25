@@ -1,0 +1,48 @@
+.dropdown{
+    display: inline-block;
+}
+.dropdown button{
+    background-color: #adadad;
+    color: white;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+.dropdown a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+.dropdown .content{
+    display: none;
+    position: absolute;
+    background-color: rgb(217, 217, 217);
+    min-width: 100px;
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.644);
+}
+.dropdown:hover .content{
+    display: block;
+}
+.dropdown:hover button{
+    background-color: #606060;
+}
+.dropdown a:hover{
+    background-color:#cfcfcf;
+}
+
+/*
+<body>
+    <div class="dropdown">
+        <button>Food</button>
+        <div class="content">
+            <a href="">Apple</a>
+            <a href="">Orange</a>
+            <a href="">Banana</a>
+        </div>
+    </div>
+    
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis at in iste nostrum perferendis voluptatibus voluptatum porro quaerat placeat rem ipsam cumque architecto aliquid nihil dolore, commodi error quisquam exercitationem!</p>
+</body>
+*/

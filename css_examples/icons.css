@@ -1,0 +1,50 @@
+.icons{
+    text-align: center;
+}
+.icons a{
+    text-decoration: none;
+    margin-right: 20px;
+}
+.fa-solid.fa-house.fa-5x{
+    color: grey;
+}
+.fa-solid.fa-house.fa-5x:hover{
+    color: rgb(182, 182, 182);
+}
+.fa-brands.fa-twitter.fa-5x{
+    color: rgb(0, 221, 255);
+}
+.fa-brands.fa-twitter.fa-5x:hover{
+    color: hsl(188, 100%, 64%);
+}
+.fa-brands.fa-youtube.fa-5x{
+    color: red;
+}
+.fa-brands.fa-youtube.fa-5x:hover{
+    color: rgb(255, 89, 89);
+}
+.fa-brands.fa-instagram.fa-5x{
+    color: rgb(255, 105, 130);
+}
+.fa-brands.fa-instagram.fa-5x:hover{
+    color: rgb(249, 171, 184);
+}
+
+/*
+<body>
+    <div class="icons">
+        <a href="">
+            <i class="fa-solid fa-house fa-5x"></i>
+        </a>
+        <a href="https://twitter.com" target="_blank">
+            <i class="fa-brands fa-twitter fa-5x"></i>
+        </a>
+        <a href="https://youtube.com" target="_blank">
+            <i class="fa-brands fa-youtube fa-5x"></i>
+        </a>
+        <a href="https://instagram.com" target="_blank">
+            <i class="fa-brands fa-instagram fa-5x"></i>
+        </a>
+    </div>
+</body>
+*/
