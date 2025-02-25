@@ -1,0 +1,36 @@
+/*
+#greeting p{
+    background-color: lightblue;
+    padding: 10px;
+    display: none;
+}
+#greeting:hover p{
+    display: block;
+}
+*/
+
+/*
+a:link{
+    color: hsl(186, 100%, 50%);
+}
+a:hover{
+    color: rgb(0, 255, 60);
+    font-size: 1.1em;
+}
+a:active{
+    font-size:1.1em;
+    color: darkblue;
+}
+a:visited{
+    color: grey;
+}
+*/
+
+/*
+li:hover{
+    background-color:yellow;
+}
+li:nth-child(3n+2){
+    background-color:green;
+}
+*/

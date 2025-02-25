@@ -1,0 +1,16 @@
+/*   Overflow = sets desired behavior when
+                content does not fit in
+                the parent element box.
+                overflow: visible
+                overflow: hidden
+                overflow: clip
+                overflow-clip-margin
+                overflow: scroll
+                overflow: auto
+*/
+
+div{
+    border: 2px solid;
+    height: 75px;
+    overflow: auto;
+}

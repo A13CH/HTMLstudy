@@ -1,0 +1,30 @@
+/*
+combinators: explains the relationship between linked selectors
+    " " = descendant
+    ">" = child
+    "~" = general sibling
+    "+" = adjacent sibling
+*/
+
+#container{
+    border: 2px solid;
+}
+#container + p{
+    background-color: hsl(60, 88%, 59%)
+}
+
+/*
+<body>
+    <div id="container">
+        <p>This is #1</p>
+        <p>This is #2</p>
+        <div>
+            <p>This is #3</p>
+        </div>
+    </div>
+
+    <p>This is #4</p>
+    <p>This is #5</p>
+
+</body>
+*/
