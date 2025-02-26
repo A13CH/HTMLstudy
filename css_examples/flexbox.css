@@ -1,0 +1,46 @@
+.container{
+    display: flex;
+    border: 10px solid black;
+    height: 90vh;
+}
+
+/* column-gap:
+/* row-gap: 
+/* flex-wrap: wrap, wrap-reverse*/
+/* align-content: flex-start, flex-end, center, space-evenly, space between*/
+/* align-items: flex-start, center,  baseline*/
+/* flex-direction: row, row-reverse, column, column reverse */
+/* justify-content: flex-start, flex-end, center, space-between, space-around, space-evenly*/
+
+.box{
+    width: 150px;
+    height:150px;
+    font-size: 8em;
+    text-align: center;
+    border-radius: 15px;
+}
+#box1{
+    background-color: hsl(0, 100%, 68%);
+    /*order: 1*/
+    /*align-self: center*/
+}
+#box2{
+    background-color: hsl(70, 100%, 68%);
+}
+#box3{
+    background-color: hsl(127, 100%, 68%);
+}
+#box4{
+    background-color: hsl(197, 100%, 68%);
+}
+
+/*
+<body>
+    <div class="container">
+        <div class="box" id="box1">1</div>
+        <div class="box" id="box2">2</div>
+        <div class="box" id="box3">3</div>
+        <div class="box" id="box4">4</div>
+    </div>
+</body>
+*/
